@@ -1,10 +1,11 @@
-📊 Telecom X: Previsão de Evasão de Clientes (Churn Prediction)
-Visão Geral do Projeto
+# 📊 Telecom X: Previsão de Evasão de Clientes (Churn Prediction)
+
+## Visão Geral do Projeto
 Este projeto de Ciência de Dados tem como objetivo principal desenvolver modelos preditivos para identificar clientes com alta probabilidade de evasão (churn) na empresa de telecomunicações "Telecom X". A retenção de clientes é um pilar estratégico para qualquer negócio, e a capacidade de prever o churn permite que a empresa atue proativamente, implementando estratégias de fidelização e minimizando perdas financeiras.
 
 Neste repositório, você encontrará um pipeline completo de Machine Learning, desde o pré-processamento robusto dos dados até a avaliação de modelos e a extração de insights acionáveis para o negócio.
 
-🎯 Objetivos do Desafio
+## 🎯 Objetivos do Desafio
 Preparação de Dados: Realizar limpeza, transformação, engenharia de features e codificação de variáveis para adequação aos modelos de ML.
 
 Análise Exploratória de Dados (EDA): Entender a distribuição dos dados e as relações entre as variáveis, com foco especial na variável alvo (churn).
@@ -19,7 +20,7 @@ Interpretabilidade: Analisar a importância das variáveis para entender os prin
 
 Conclusões Estratégicas: Fornecer recomendações baseadas em dados para a Telecom X, visando a retenção de clientes.
 
-📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 TelecomX_Data.json: Dados brutos da Telecom X (fonte original).
 
 telecomX_datos.csv: Base de dados pré-processada e tratada, pronta para a modelagem (gerada pela Parte 1 do Colab).
@@ -28,7 +29,7 @@ telecom_x_data_processing.ipynb (ou .py se preferir): Notebook/script da Parte 1
 
 telecom_x_churn_prediction.ipynb (ou .py se preferir): Notebook/script da Parte 2, que carrega os dados processados e executa as etapas de modelagem, avaliação e análise de importância de variáveis.
 
-🚀 Metodologia
+## 🚀 Metodologia
 O projeto seguiu as seguintes etapas:
 
 Carregamento e Pré-processamento de Dados:
@@ -75,7 +76,7 @@ Random Forest Classifier: Um modelo de ensemble baseado em árvores, robusto, ca
 
 Os modelos foram avaliados usando: Acurácia, Precisão, Recall, F1-score e Matriz de Confusão.
 
-📈 Resultados e Insights Chave
+## 📈 Resultados e Insights Chave
 Após a avaliação, o Random Forest Classifier demonstrou ser o modelo com melhor desempenho geral para este problema de previsão de evasão, especialmente no que tange ao Recall (capacidade de identificar corretamente clientes que irão evadir), uma métrica crítica para intervenções proativas.
 
 Random Forest Metrics (Teste):
@@ -112,7 +113,7 @@ monthly_charges (Cobranças Mensais): Mensalidades mais altas tendem a aumentar 
 
 Serviços Adicionais (online_security, tech_support, online_backup): A ausência ou não adesão a esses serviços está correlacionada com maior churn, indicando que clientes com mais serviços tendem a ser mais fiéis.
 
-💡 Recomendações Estratégicas para Telecom X
+## 💡 Recomendações Estratégicas para Telecom X
 Com base nos insights obtidos pelos modelos preditivos, sugiro as seguintes ações para a Telecom X:
 
 Foco em Clientes Recém-Chegados: Implementar programas de boas-vindas aprimorados e acompanhamento proativo nos primeiros meses de contrato (tenure), oferecendo suporte e incentivando a adesão a serviços adicionais.
@@ -127,7 +128,7 @@ Promoção de Serviços Agregados: Destacar o valor e a segurança dos serviços
 
 Revisão da Estrutura de Preços: Avaliar a competitividade dos planos com mensalidades elevadas, considerando a oferta de pacotes mais flexíveis ou descontos para clientes de alto gasto, garantindo que o valor percebido justifique o custo.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 Python
 
 Pandas
@@ -141,3 +142,4 @@ Matplotlib
 Scikit-learn
 
 Imbalanced-learn (imblearn)
+
