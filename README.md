@@ -25,9 +25,9 @@ TelecomX_Data.json: Dados brutos da Telecom X (fonte original).
 
 telecomX_datos.csv: Base de dados pré-processada e tratada, pronta para a modelagem (gerada pela Parte 1 do Colab).
 
-telecom_x_data_processing.ipynb (ou .py se preferir): Notebook/script da Parte 1, responsável pelo carregamento, limpeza e pré-processamento dos dados, salvando o resultado em telecomX_datos.csv.
+TelecomX_Customer_Retention_Study.ipynb: Notebook/script da Parte 1, responsável pelo carregamento, limpeza e pré-processamento dos dados, salvando o resultado em telecomX_datos.csv.
 
-telecom_x_churn_prediction.ipynb (ou .py se preferir): Notebook/script da Parte 2, que carrega os dados processados e executa as etapas de modelagem, avaliação e análise de importância de variáveis.
+TelecomX_Previsao-de-Evasao-de-Clientes.ipynb: Notebook/script da Parte 2, que carrega os dados processados e executa as etapas de modelagem, avaliação e análise de importância de variáveis.
 
 ## 🚀 Metodologia
 O projeto seguiu as seguintes etapas:
